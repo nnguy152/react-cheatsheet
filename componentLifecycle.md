@@ -14,8 +14,9 @@ Used for:
 
 ---
 
-## Two Types of Component Lifecycle Methods:
-  ## 1 - **Mounting** : What happens when component created. Was an initial state set?
+## Three Types of Component Lifecycle Methods:
+  ## 1 - **Mounting**
+  What happens when component created. Was an initial state set?
 
   ###`constructor()`
   Called before react component is mounted. Place to initialize state and bind event handlers to the class instance. Otherwise, not needed. Can be used to initialize state based on props like:
@@ -44,9 +45,6 @@ Used for:
   ###`componentDidMount()`
   Invoked right after component mounted. If data needs to be loaded from remote endpoint, use this to instantiate network request. Calling this.setState will trigger extra rendering before browser updates screen (meaning render() will occur twice but user will not see the intermediate state).
 
-  ###`componentWillUnmount()`
-  For when a component is being removed from the DOM. 
-
   ## 2 - **Updating**
   Caused by change to props or state and re-rendering a component.
 
@@ -63,3 +61,8 @@ Used for:
   
   ###`componentDidUpdate()`
   Invoked right after updating occurs. Not called for initial render. Used to do network requests as long as you compare current props to previous. Should not be invoked if shouldComponentUpdate returns false.
+
+  
+  ## 3 - **Unmounting**
+  ###`componentWillUnmount()`
+  For when a component is being removed from the DOM. 

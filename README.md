@@ -7,9 +7,7 @@ The following links to each markdown file with the notes.
 
   - [Components](https://github.com/nnguy152/react-cheatsheet/blob/master/components.md)
   - [State & Props](https://github.com/nnguy152/react-cheatsheet/blob/master/states%26props.md)
-  - [Reusable Components](#)
   - [Component Lifecycle](https://github.com/nnguy152/react-cheatsheet/blob/master/componentLifecycle.md)
-  - [React Router](#)
   - [Thinking in React](https://github.com/nnguy152/react-cheatsheet/blob/master/ThinkingInReact.md)
 
 ---

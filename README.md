@@ -14,9 +14,9 @@ The following links to each markdown file with the notes.
 
 ---
 
-### SideNotes
+## SideNotes
 
-### Inverse Data Flow
+#### Inverse Data Flow
 React operates from top to bottom/biggest to smallest - passing data from the parent container (state) to the children container (props).
 
 #### VirtualDOM 

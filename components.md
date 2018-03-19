@@ -11,8 +11,8 @@ a language that uses JS functions to return HTML elements.
   - Small
   - Testable
 
-There are two types of comoenents:
-  - Presentational: Functional components that render data (does not have state) and can accept props.
+There are two types of components:
+  _Presentational_: Functional components that render data (does not have state) and can accept props.
 
   ```
   const Welcome = () => {
@@ -22,7 +22,7 @@ There are two types of comoenents:
   }
   ```
 
-  - Container: Class components that render presentational components and pass them data via props (has state, which allows components to be reusable and encapsulated). Usually has a constructor to assign state.
+  _Container_: Class components that render presentational components and pass them data via props (has state, which allows components to be reusable and encapsulated). Usually has a constructor to assign state.
 
   ```
   class Welcome extends Component {

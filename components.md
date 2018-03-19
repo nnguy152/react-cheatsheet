@@ -15,4 +15,6 @@ There are two types of comoenents:
   - Presentational: Functional components that render data (does not have state) and can accept props.
   - Container: Class components that can contain presentational components and can take in data  (has state). Usually has a constructor to assign state.
 
+---
+
 ### Nested Components

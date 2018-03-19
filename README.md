@@ -1,19 +1,23 @@
 # React CheatSheet
 
-React.js is a JS library for making front-end views in web apps.
 This is a little cheatsheet about the React.
+React.js is a JS library for making front-end views in web apps.
+
 The following links to each markdown file with the notes.
 
   - [Components](https://github.com/nnguy152/react-cheatsheet/blob/master/components.md)
-  - [State & Props](https://git.generalassemb.ly/ga-wdi-lessons/react-state-and-props)
-  - [Reusable Components](https://git.generalassemb.ly/ga-wdi-lessons/react-reusable-components)
-  - [Component Lifecycle](https://git.generalassemb.ly/ga-wdi-lessons/react-component-lifecycle)
-  - [React Router](https://git.generalassemb.ly/ga-wdi-lessons/react-router)
-  - [Building a MERN App](https://git.generalassemb.ly/ga-wdi-lessons/building-a-mern-app)
+  - [State & Props](https://github.com/nnguy152/react-cheatsheet/blob/master/states%26props.md)
+  - [Reusable Components](#)
+  - [Component Lifecycle](https://github.com/nnguy152/react-cheatsheet/blob/master/componentLifecycle.md)
+  - [React Router](#)
+  - [Building a MERN App](#)
 
 ---
 
 ### SideNotes
+
+### Inverse Data Flow
+React operates from top to bottom/biggest to smallest - passing data from the parent container (state) to the children container (props).
 
 #### VirtualDOM 
 JS representation of the actual DOM- acts as a staging area for changes to be tested before the actual implementation.

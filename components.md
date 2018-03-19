@@ -13,8 +13,9 @@ a language that uses JS functions to return HTML elements.
 
 There are two types of comoenents:
   - Presentational: Functional components that render data (does not have state) and can accept props.
-  - Container: Class components that can contain presentational components and can take in data  (has state). Usually has a constructor to assign state.
+  - Container: Class components that can contain presentational components and can take in data  (has state, which allows components to be reusable and encapsulated). Usually has a constructor to assign state.
 
 ---
 
 ### Nested Components
+

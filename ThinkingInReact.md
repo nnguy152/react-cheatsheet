@@ -17,7 +17,8 @@ Build the app so that it takes a data model and renders the UI but with _no_ int
 
 ### Step 3: Identify the Minimal (but complete) Representation of UI State
 
-Now add state. 
+Now add [state](https://github.com/nnguy152/react-cheatsheet/blob/master/states%26props.md).
+ 
 
 ---
 

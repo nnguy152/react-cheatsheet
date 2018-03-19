@@ -10,7 +10,7 @@ The following links to each markdown file with the notes.
   - [Reusable Components](#)
   - [Component Lifecycle](https://github.com/nnguy152/react-cheatsheet/blob/master/componentLifecycle.md)
   - [React Router](#)
-  - [Building a MERN App](#)
+  - [Thinking in React](https://github.com/nnguy152/react-cheatsheet/blob/master/ThinkingInReact.md)
 
 ---
 

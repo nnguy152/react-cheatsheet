@@ -29,12 +29,12 @@ Used for:
   _componentWillMount()_: Invoked just before mounting occurs; Called before render() so this.setState won't trigger extra rendering. 
     
   _render()_: Examines this.props & this.state to return:
-      - React element created via JSX (<div></div> OR <Class />).
-      -String/Numbers rendered as text nodes in the DOM.
-      - Portals created via ReactDOM.createPortal.
-      - null aka nothing.
-      - Booleans that rendered nothing but return test.
-    Render is 'pure' aka does not modify component state and retursn the same result each time it is invoked. 
+  - React element created via JSX (<div></div> OR <Class />).
+  - String/Numbers rendered as text nodes in the DOM.
+  - Portals created via ReactDOM.createPortal.
+  - null aka nothing.
+  - Booleans that rendered nothing but return test.
+  Render is 'pure' aka does not modify component state and retursn the same result each time it is invoked. 
 
   _componentDidMount()_: Invoked right after component mounted. If data needs to be loaded from remote endpoint, use this to instantiate network request. Calling this.setState will trigger extra rendering before browser updates screen (meaning render() will occur twice but user will not see the intermediate state).
 

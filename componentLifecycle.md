@@ -12,8 +12,10 @@ Used for:
   - **componentWillUnmount** is called before a component is removed from the DOM.
   - **componentDidMount** is called after a comonent is rendered to the DOM.
 
-### Two Types of Component Lifecycle Methods:
-  #### 1 - **Mounting** : What happens when component created. Was an initial state set?
+---
+
+## Two Types of Component Lifecycle Methods:
+  ### 1 - **Mounting** : What happens when component created. Was an initial state set?
 
   **constructor()**: Called before react component is mounted. Place to initialize state and bind event handlers to the class instance. Otherwise, not needed. Can be used to initialize state based on props like:
       ```
@@ -40,7 +42,7 @@ Used for:
 
   **componentWillUnmount()**: For when a component is being removed from the DOM. 
 
-  #### 2 - **Updating**: Caused by change to props or state and re-rendering a component.
+  ### 2 - **Updating**: Caused by change to props or state and re-rendering a component.
 
   **componentWillRecieveProps()**: Used when 'forking' props by using this in state to keep state up-to-date. Is invoked before mounted component recieves new props. If state needs to update in response to prop changes, compare this.props and nextProps and perform state transitions via this.setState.
   
